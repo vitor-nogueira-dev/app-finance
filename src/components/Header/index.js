@@ -48,4 +48,13 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontWeight: 'bold',
   },
+
+  buttonUser: {
+    width: 44,
+    height: 44,
+    backgroundColor: 'rgba(255,255,255,0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 44 / 2,
+  }
 });
