@@ -43,6 +43,13 @@ export default function Actions() {
         </View>
         <Text style={styles.labelButton}>Boletos</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.actionButton}>
+        <View style={styles.areaButton}>
+          <AntDesign name="setting" size={26} color="#000" />
+        </View>
+        <Text style={styles.labelButton}>Conta</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
