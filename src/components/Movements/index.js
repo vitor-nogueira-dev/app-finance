@@ -53,4 +53,11 @@ const styles = StyleSheet.create({
     color: '#E83F5B',
     fontWeight: 'bold',
   },
+  skeleton: {
+    marginTop: 6,
+    width: 80,
+    height: 10,
+    backgroundColor: '#DADADA',
+    borderRadius: 8,
+  }
 });
