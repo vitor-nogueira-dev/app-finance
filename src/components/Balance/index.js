@@ -12,6 +12,15 @@ export default function Balance() {
           <Text style={styles.balance}>15.000,00</Text>
         </View>
       </View>
+
+      <View style={styles.item}>
+        <Text style={styles.itemTitle}>Gastos</Text>
+        <View style={styles.content}>
+          <Text style={styles.currencySymbol}>R$</Text>
+          <Text style={styles.balance}>7.000,00</Text>
+        </View>
+      </View>
+
     </View>
   );
 }
