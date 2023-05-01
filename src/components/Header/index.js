@@ -34,7 +34,22 @@ export default function Header({ name }) {
           delay: 300,
         }}
       >
-        <Text style={styles.userName}>{name}</Text>
+        <MotiText
+          from={{
+            translateX: -300,
+          }}
+          animate={{
+            translateX: 0,
+          }}
+          transition={{
+            type: 'timing',
+            duration: 800,
+            delay: 800,
+          }}
+          style={styles.userName}
+        >
+          {name}
+        </MotiText>
         <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
           <Feather name="user" size={27} color="#fff" />
         </TouchableOpacity>
