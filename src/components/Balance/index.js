@@ -50,4 +50,12 @@ const styles = StyleSheet.create({
     color: '#dadada',
     marginRight: 6,
   },
+  balance: {
+    fontSize: 22,
+    color: '#2ecc71',
+  },
+  expenses: {
+    fontSize: 22,
+    color: '#e74c3c',
+  },
 });
