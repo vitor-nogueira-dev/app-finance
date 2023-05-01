@@ -23,15 +23,5 @@ const list = [
   },
 ];
 
-const buttons = [
-  { id: 1, label: 'Entradas', icon: 'addfolder', color: '#000' },
-  { id: 2, label: 'Saídas', icon: 'minuscircleo', color: '#FF0000' },
-  { id: 3, label: 'Transferências', icon: 'swap', color: '#007ACC' },
-  { id: 4, label: 'Empréstimos', icon: 'creditcard', color: '#FFA500' },
-  { id: 5, label: 'Investimentos', icon: 'linechart', color: '#008000' },
-  { id: 6, label: 'Receitas', icon: 'wallet', color: '#00BFFF' },
-  { id: 7, label: 'Despesas', icon: 'shoppingcart', color: '#FF4500' },
-  { id: 8, label: 'Economias', icon: 'save', color: '#32CD32' },
-];
 
-export { list };
+export default list;
