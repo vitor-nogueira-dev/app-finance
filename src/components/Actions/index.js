@@ -36,11 +36,13 @@ const styles = StyleSheet.create({
   actionButton: {
     alignItems: 'center',
     marginRight: 32,
-    backgroundColor: '#FFF',
+  },
+  areaButton: {
     height: 60,
     width: 60,
     borderRadius: 30,
+    backgroundColor: '#ecf0f1',
     justifyContent: 'center',
-    shadowColor: '#000',
+    alignItems: 'center',
   },
 })
