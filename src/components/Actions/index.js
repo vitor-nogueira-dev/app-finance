@@ -14,6 +14,13 @@ export default function Actions() {
       <Text style={styles.labelButton}>Entradas</Text>
     </TouchableOpacity>
 
+    <TouchableOpacity style={styles.actionButton}>
+      <View style={styles.areaButton}>
+        <AntDesign name="tagso" size={26} color="#000" />
+      </View>
+      <Text style={styles.labelButton}>Entradas</Text>
+    </TouchableOpacity>
+
    </ScrollView>
   );
 }
