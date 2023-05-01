@@ -35,4 +35,17 @@ const styles = StyleSheet.create({
     marginTop: 2,
     marginBottom: 8,
   },
+  date: {
+    color: '#DADADA',
+    fontWeight: 'bold',
+  },
+  label: {
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  value: {
+    fontSize: 16,
+    color: '#12A454',
+    fontWeight: 'bold',
+  },
 });
