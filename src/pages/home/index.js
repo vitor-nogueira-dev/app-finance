@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Header name="Vitor Nogueira" />
-      <Balance />
+      <Balance saldo="+R$5690,00" expenses="-R$3478,00" />
     </View>
   );
 }
