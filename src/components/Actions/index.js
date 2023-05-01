@@ -1,11 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
+
+import { AntDesign } from '@expo/vector-icons';
 
 export default function Actions() {
  return (
-   <View style={styles.container}>
-    <Text>Teste</Text>
-   </View>
+   <ScrollView style={styles.container} horizontal={true} showsHorizontalScrollIndicator={false}>
+
+    <TouchableOpacity style={styles.actionButton}>
+      
+    </TouchableOpacity>
+
+   </ScrollView>
   );
 }
 
