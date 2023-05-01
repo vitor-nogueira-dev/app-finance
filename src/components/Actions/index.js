@@ -19,5 +19,11 @@ export default function Actions() {
 }
 
 const styles = StyleSheet.create({
-  container: {}
+  container: {
+    maxHeight: 84,
+    marginBottom: 14,
+    marginTop: 18,
+    paddingEnd: 14,
+    paddingStart: 14,
+  }
 })
