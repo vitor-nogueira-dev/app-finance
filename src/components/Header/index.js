@@ -36,4 +36,10 @@ const styles = StyleSheet.create({
     paddingEnd: 16,
     paddingBottom: 44,
   },
+  content: {
+    flex:1,
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
 });
