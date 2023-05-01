@@ -4,13 +4,9 @@ import Header from '../../components/Header';
 import Balance from '../../components/Balance';
 import Movements from '../../components/Movements';
 import Actions from '../../components/Actions';
+import {list} from '../../utils/data';
 
-const list = [
-  { id: 1, label: 'Aluguel', value: '1500,00', date: '01/09/22', type: 0 },
-  { id: 2, label: 'Salário', value: '7.000,00', date: '05/09/22', type: 1 },
-  { id: 4, label: 'Água', value: '115,00', date: '28/09/22', type: 0 },
-  { id: 5, label: 'Pix', value: '850,00', date: '05/10/22', type: 0 },
-];
+
 export default function Home() {
   return (
     <View style={styles.container}>
