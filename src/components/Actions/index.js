@@ -25,5 +25,15 @@ const styles = StyleSheet.create({
     marginTop: 18,
     paddingEnd: 14,
     paddingStart: 14,
-  }
+  },
+  actionButton: {
+    alignItems: 'center',
+    marginRight: 32,
+    backgroundColor: '#FFF',
+    height: 60,
+    width: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    shadowColor: '#000',
+  },
 })
