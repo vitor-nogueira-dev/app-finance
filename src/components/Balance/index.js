@@ -46,4 +46,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
+  currencySymbol: {
+    color: '#dadada',
+    marginRight: 6,
+  },
 });
