@@ -8,7 +8,10 @@ export default function Actions() {
    <ScrollView style={styles.container} horizontal={true} showsHorizontalScrollIndicator={false}>
 
     <TouchableOpacity style={styles.actionButton}>
-      
+      <View style={styles.areaButton}>
+        <AntDesign name="addfolder" size={26} color="#000" />
+      </View>
+      <Text style={styles.labelButton}>Entradas</Text>
     </TouchableOpacity>
 
    </ScrollView>
