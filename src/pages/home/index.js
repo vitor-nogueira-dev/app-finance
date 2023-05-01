@@ -30,4 +30,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     margin: 14,
   },
+  list: {
+    marginStart: 14,
+    marginEnd: 14,
+  },
 });
