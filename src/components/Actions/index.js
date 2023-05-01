@@ -36,6 +36,13 @@ export default function Actions() {
         </View>
         <Text style={styles.labelButton}>Carteira</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.actionButton}>
+        <View style={styles.areaButton}>
+          <AntDesign name="barcode" size={26} color="#000" />
+        </View>
+        <Text style={styles.labelButton}>Boletos</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
