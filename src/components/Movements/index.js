@@ -48,4 +48,9 @@ const styles = StyleSheet.create({
     color: '#12A454',
     fontWeight: 'bold',
   },
+  expenses: {
+    fontSize: 16,
+    color: '#E83F5B',
+    fontWeight: 'bold',
+  },
 });
