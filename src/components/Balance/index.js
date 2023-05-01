@@ -42,4 +42,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#dadada',
   },
+  content: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
 });
