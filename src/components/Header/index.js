@@ -42,4 +42,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
+
+  userName: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
 });
