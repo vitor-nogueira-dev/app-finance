@@ -16,6 +16,14 @@ export default function Home() {
       <Header name="Vitor Nogueira" />
       <Balance saldo="+R$5690,00" expenses="-R$3478,00" />
       <Text style={styles.title}>Últimas movimentações</Text>
+
+      <FlatList style={styles.list}
+        data={list}
+        keyExtractor={(item) => String(item.id)}
+        showsVerticalScrollIndicator={false}
+        renderItem={({ item }) => <Movements data={item}/>}
+          
+      />
     </View>
   );
 }
