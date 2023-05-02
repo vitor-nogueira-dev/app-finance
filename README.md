@@ -1,4 +1,7 @@
 ### Finance App 🏦
+
+![Finance App](./mockupIphone.png)
+
 O Finance App é um aplicativo de controle de finanças desenvolvido com React Native usando Expo Go e Xcode para simulação no dispositivo celular. O aplicativo permite visualizar uma lista de entradas e saídas, ocultar e exibir os valores das despesas e possui um header com alguns botões.
 
 ### Instalação ⚙️
